@@ -51,5 +51,10 @@ thead {
   color: white;
 }
 
+.print-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+}
 
 
