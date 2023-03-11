@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheat Sheet</title>
+        <!-- <link rel="stylesheet" href="reset_styles.css"> -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Basic Terminal Commands</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Example</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ls</td>
+                    <td>list directory contents</td>
+                    <td class="example">This command will list the contents of
+                        the current
+                        directory. For example: <br><code class="language-bash">$
+                            ls</code><br><code class="language-bash"> Desktop
+                            Documents Downloads</code></td>
+                    <td></td>
+
+
+                </tr>
+
+                <tr>
+                    <td>pwd</td>
+                    <td>print working directory</td>
+                    <td class="example">This command will print the current
+                        working directory.
+                        For example:<br> <code class="language-bash">$ pwd</code><br>
+                        <code class="language-bash">/home/user/Desktop</code></td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>change directory</td>
+                    <td class="example">This command will change the current
+                        working directory.
+                        For example, to change to the "Documents" directory:
+                        <br>
+                        <code class="language-bash">$ cd Documents</code></td>
+                </tr>
+                <tr>
+                    <td>mkdir</td>
+                    <td>make a new directory</td>
+                    <td class="example">This command will create a new directory
+                        with the
+                        specified name. For example, to create a new directory
+                        named "new_folder": <br><code class="language-bash">$
+                            mkdir
+                            new_folder</code></td>
+                </tr>
+                <tr>
+                    <td>rm</td>
+                    <td>remove a file or directory</td>
+                    <td class="example">This command will remove a file or
+                        directory. For
+                        example, to remove a file named "old_file.txt": <br><code
+                            class="language-bash">$ rm old_file.txt</code></td>
+                </tr>
+                <tr>
+                    <td>mv</td>
+                    <td>move or rename a file or directory</td>
+                    <td class="example">This command will move or rename a file
+                        or directory.
+                        For example, to move a file named "file.txt" to the
+                        "Documents" directory: <br><code class="language-bash">$
+                            mv
+                            file.txt Documents/</code></td>
+                </tr>
+                <tr>
+                    <td>cp</td>
+                    <td>copy a file or directory</td>
+                    <td class="example">This command will copy a file or
+                        directory. For example,
+                        to copy a file named "file.txt" to a new file named
+                        "file_copy.txt": <br><code class="language-bash">$ cp
+                            file.txt file_copy.txt</code></td>
+                </tr>
+                <tr>
+                    <td>touch</td>
+                    <td>create a new file</td>
+                    <td class="example">This command will create a new file with
+                        the specified
+                        name. For example, to create a new file named
+                        "new_file.txt":<br><code class="language-bash">$ touch
+                            new_file.txt</code></td>
+                </tr>
+                <tr>
+                    <td>cat</td>
+                    <td>display the contents of a file</td>
+                    <td class="example">This command will display the contents
+                        of a file. For
+                        example, to display the contents of a file named
+                        "file.txt": <br><code class="language-bash">$ cat
+                            file.txt</code></td>
+                </tr>
+                <tr>
+                    <td>grep</td>
+                    <td>search for a pattern in a file</td>
+                    <td class="example">This command will search for a pattern
+                        in a file. For
+                        example, to search for the pattern "apple" in a file
+                        named "fruit.txt": <br><code class="language-bash">$
+                            grep
+                            apple fruit.txt</code></td>
+                </tr>
+                <tr>
+                    <td>chmod</td>
+                    <td>change file permissions</td>
+                    <td class="example">This command will change the permissions
+                        of a file or
+                        directory. For example, to give read, write, and execute
+                        permissions to the owner of a file named "file.txt":<br>
+                        <code class="language-bash">$ chmod 700 file.txt</code></td>
+                </tr>
+                <tr>
+                    <td>sudo</td>
+                    <td>execute a command with superuser privileges</td>
+                    <td class="example">This command will execute a command with
+                        superuser
+                        privileges. For example, to install a package using a
+                        package manager: <br><code class="language-bash">$ sudo
+                            apt-get install
+                            package_name</code></td>
+                </tr>
+                <tr>
+                    <td>man</td>
+                    <td>display the manual page for a command</td>
+                    <td class="example">This command will display the manual
+                        page for a command.
+                        For example, to display the manual page for the "ls"
+                        command: <br><code class="language-bash">$ man ls</code></td>
+                </tr>
+                <tr>
+                    <td>ps</td>
+                    <td>display a snapshot of the current processes</td>
+                    <td><code class="language-bash">$ ps</code></td>
+                </tr>
+                <tr>
+                    <td>top</td>
+                    <td class="example">display system resource usage and
+                        processes</td>
+                    <td><code class="language-bash">$ top</code></td>
+                </tr>
+                <tr>
+                    <td>ssh</td>
+                    <td>connect to a remote machine over SSH</td>
+                    <td class="example">This command will connect to a remote
+                        machine over SSH.
+                        For example, to connect to a machine with IP address
+                        "192.168.1.100": <br><code class="language-bash">$ ls -l</code></td>
+                </tr>
+                <tr>
+                    <td>scp</td>
+                    <td>copy files securely over SSH</td>
+                    <td class="example">This command will copy files securely
+                        over SSH. For
+                        example, to copy a file named "file.txt" to a remote
+                        machine with IP address "192.168.1.100": <br> <code
+                            class="language-bash">$ scp file.txt
+                            username@192.168.1.100:/path/to/destination</code></td>
+                </tr>
+                <tr>
+                    <td>zip</td>
+                    <td>compress files into a zip archive</td>
+                    <td class="example">To create a zip archive called
+                        my_files.zip containing
+                        the files file1.txt, file2.txt, and file3.txt in the
+                        current directory:<br> <code class="language-bash">$ zip
+                            my_files.zip file1.txt file2.txt file3.txt</code></td>
+                </tr>
+                <tr>
+                    <td>unzip</td>
+                    <td>extract files from a zip archive</td>
+                    <td v>To extract the contents of a zip archive called
+                        my_files.zip in the current directory: <br> <code
+                            class="language-bash">$ unzip my_files.zip</code></td>
+                </tr>
+                <tr>
+                    <td>wget</td>
+                    <td>download files from the internet</td>
+                    <td class="example">To download a file called
+                        example_file.txt from a
+                        website: <br> <code class="language-bash">$ wget
+                            https://example.com/example_file.txt</code></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </body>
+</html>

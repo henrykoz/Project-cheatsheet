@@ -1,0 +1,55 @@
+
+
+h1 { 
+    text-align: center;
+    padding: 8px;
+    width: auto;
+    /* background-color: #4CAF50; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table {
+    position: relative;
+    /* table-layout: auto; */
+    margin: 0 auto;
+	border-collapse: collapse;
+	width: 90%;
+    max-width: fit-content;
+    /* display: block; */
+   
+}
+th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.language-bash {
+    background-color: black;
+    color: white;
+    padding: 0.18em;
+    font-style: normal;
+}
+
+.example {
+    font-style: oblique;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
