@@ -1,5 +1,5 @@
 body{
-  background-color: #ffffff;
+  background-color: #f9f4f4;
   margin: 0px;
   padding:0px;
   
@@ -7,8 +7,9 @@ body{
 }
 .navigation{
   box-sizing: border-box;
-  background-color: #ffffff;
-  border-bottom: 1px solid #dddddd;
+  background-image: url(/images/curve1.svg);
+  /* background-color: #ffffff; */
+  /* border-bottom: 1px solid #dddddd; */
   left: 0px;
   overflow-y: auto;
   padding:20px;
@@ -96,5 +97,19 @@ thead {
 
 }
 
+.original-button {
+  color: aliceblue !important;
+  font-size: 38px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: 0.3s;
+  background-color: #1167bd;
+}
 
-
+.original-button:hover {
+  opacity: .7;
+}
