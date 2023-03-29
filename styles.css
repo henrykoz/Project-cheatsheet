@@ -124,9 +124,9 @@ div.foo {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 70px;
-  overflow-y: auto;
-  padding:20px;
+  height: 100px;
+  /* overflow-y: auto; */
+  /* padding:20px; */
    -moz-transform: scaleY(-1);
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
@@ -135,18 +135,31 @@ div.foo {
     -ms-filter: "FlipV";
 
 }
+
+.foo {
+  display:flex ;
+  align-items: center ;
+  justify-content: center ;
+}
+
 .original-button1 {
   color: aliceblue !important;
-  font-size: 38px!important;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
+  font-size: 38px;
+  display:flex ;
+  align-items: center ;
+  justify-content: center ;
+  width: 45px;
   text-decoration: none;
   border-radius: 100px;
   transition: 0.3s;
   background-color: #1167bd;
   border: 2px solid white;
+   -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 p {
   margin-left: 30px;
