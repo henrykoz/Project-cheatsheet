@@ -108,8 +108,10 @@ thead {
   border-radius: 100px;
   transition: 0.3s;
   background-color: #1167bd;
+  border: 2px solid white;
 }
 
 .original-button:hover {
   opacity: .7;
+  border: 2px solid white;
 }
