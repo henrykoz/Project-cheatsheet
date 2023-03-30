@@ -1,5 +1,8 @@
 body{
-  background-color: #f9f4f4;
+  background-image: url(/images/Waves.png);
+  background-size:auto;
+  background-color: #4c5ea9;
+  color: rgb(80, 103, 181);
   margin: 0px;
   padding:0px;
   
@@ -114,25 +117,27 @@ thead {
 .original-button:hover {
   opacity: .7;
   border: 2px solid white;
+  background-color: #ddd;
+  color: red !important;
   
 }
 
 div.foo {
 
-  background-image: url(/images/curve1.svg);
+  background-image: url(/images/wavesOpacity.svg);
   z-index: 999;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 100px;
-  /* overflow-y: auto; */
+  overflow-y: auto;
   /* padding:20px; */
-   /* -moz-transform: scaleY(-1);
+   -moz-transform: scaleY(-1);
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
     filter: FlipV;
-    -ms-filter: "FlipV"; */
+    -ms-filter: "FlipV";
 
 }
 
@@ -161,7 +166,17 @@ div.foo {
     filter: FlipV;
     -ms-filter: "FlipV";
 }
+.original-button1:hover {
+  opacity: .7;
+  border: 5px solid white;
+  
+}
+
 p {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+div.main {
+  min-height: 700px;
 }
