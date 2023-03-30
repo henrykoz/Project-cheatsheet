@@ -10,7 +10,7 @@ body{
 }
 .navigation{
   box-sizing: border-box;
-  background-image: url(images/curve1.svg);
+  background-image: url(images/curve.svg);
   /* background-color: #ffffff; */
   /* border-bottom: 1px solid #dddddd; */
   left: 0px;
